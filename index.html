@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assest/css/base.css">
+    <link rel="stylesheet" href="./assest/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assest/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>Shopee</title>
+</head>
+<body>
+        <div class="app">
+            <header class="header">
+                <div class="grid">
+                    <!-- Top header shopee -->
+                    <nav class="header__navbar">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item header__navbar-item--separate">Kênh Người Bán</li>
+                            <li class="header__navbar-item header__navbar-item--separate">Trở thành Người bán Shopee</li>
+                            <li class="header__navbar-item header__navbar-item--separate header__navbar-subnav">
+                                Tải ứng dụng
+                                <!-- QR CODE -->
+                                <div class="header__navbar-item--subnav">
+                                    <img class="header__navbar-subnav--qrcode" src="./assest/img/qr code.png" alt="QRCODE">
+                                    <div class="header__navbar-subnav--store">
+                                    <img src="./assest/img/appstore.png" alt="App Store" class="header__navbar-subnav--appstore">
+                                    <img src="./assest/img/chplay.png" alt="CH Play" class="header__navbar-subnav--chplay">
+                                    </div>
+                                </div>
+                                </li>
+                            <li class="header__navbar-item header__navbar-no-pointer">
+                                Kết nối
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon fab fa-facebook"></i>
+                                </a>
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item header_subnav--infor">
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon far fa-bell"></i>
+                                </a>
+                                Thông Báo
+                                <!-- Information -->
+                                <div class="header__infor-subnav">
+                                    <div class="header__infor-subnav-content">
+                                        <img src="./assest/img/Subnav_infor_img.png" alt="Image" class="header__infor--subnav-img">
+                                        <p class="header__infor--subnav-text">Đăng nhập để xem Thông báo</p>
+                                    </div>
+                                    <div class="header__infor-subnav-sign">
+                                        <button class="header__subnav-sign-in">Đăng ký</button>
+                                        <button class="header__subnav-sign-up">Đăng nhập</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon far fa-question-circle"></i>
+                                </a>
+                                Trợ giúp
+                            </li>
+                            <li class="header__navbar-item header__navbar-item--separate">Đăng ký</li>
+                            <li class="header__navbar-item header__navbar-item--bold">Đăng nhập</li>
+                    </nav>
+                    <!-- Main header shopee -->
+                    <nav class="header__navbar--bottom">
+                        <a href="" class="navbar__bottom--logo">
+                            <img src="./assest/img/logo_shopee.png" alt="Logo Shopee" class="navbar__logo">
+                        </a>
+                        <div class="navbar__bottom--search">
+                            <div class="navbar__search">
+                                <form action="" class="navbar__main">
+                                    <div class="navbar__input--wrap">
+                                        <input type="text" placeholder="Tìm trong shop này" class="navbar__input">
+                                        <div class="navbar__search--history">
+                                            <div class="search__heading">Lịch sử Tìm kiếm</div>
+                                            <ul class="search__list">
+                                                <li class="search__item">
+                                                    <a href="">Kem đánh răng</a>
+                                                </li>
+                                                <li class="search__item">
+                                                    <a href="">Kem trị mụn</a>
+                                                </li>
+                                                <li class="search__item">
+                                                    <a href="">Kem chuối</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="navbar__selector navbar__selector--separate">
+                                        Trong Shop này
+                                        <i class="fas fa-chevron-down navbar__selector--icon"></i>
+                                        <!-- Search Subnav -->
+                                        <div class="navbar__selector--subnav">
+                                            <ul class="navbar__selector--main">
+                                                <li class="navbar__selctor-item navbar__selctor-item-active" >
+                                                    <div class="navbar__selctor-subnav--text">Trong Shop này</div>
+                                                    <i class="navbar__selector-subnav fas fa-check"></i>
+                                                </li>
+                                                <li class="navbar__selctor-item">
+                                                    <div class="navbar__selctor-subnav--text">Trong Shopee</div>
+                                                    <i class="navbar__selector-subnav fas fa-check"></i>
+                                                </li>    
+                                            </ul>
+                                        </div>
+
+
+                                    </div>
+                                    <button class="navbar__finder" type="submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="navbar__idea">
+                                <a href="" class="navbar__idea-item">Bánh Trung Thu</a>
+                                <a href="" class="navbar__idea-item">Áo Khoác</a>
+                                <a href="" class="navbar__idea-item">Váy</a>
+                                <a href="" class="navbar__idea-item">Quần</a>
+                                <a href="" class="navbar__idea-item">Tai Nghe</a>
+                                <a href="" class="navbar__idea-item">Bông Tẩy Trang</a>
+                                <a href="" class="navbar__idea-item">Túi Xách Nữ</a>
+                                <a href="" class="navbar__idea-item">Chân Váy</a>
+                            </div>
+                        </div>
+                        <div class="navbar__bottom--icon">
+                            <div class="navbar__icon--subnav">
+                            <i class="navbar__icon fas fa-shopping-cart"></i>
+                            <div class="navbar__subnav">
+                                <div class="navbar__subnav-main">
+                                    <div>
+                                    <img src="./assest/img/navbar__subnav-bottom--shopping_car.png" alt="Shopping image" class="navbar__subnav--img">
+                                    <div class="navbar__subnav--text">Chưa có sản phẩm</div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="container">
+                <div class="grid">
+                    <div class="container__break">
+                        <i class="fas fa-chevron-left"></i>
+                        <a href="" class="container__break--return">Trở lại Trang của Shop</a>
+                    </div>
+                    <div class="grid__row">
+                        <div class="grid__col--2">
+                            <div class="container__left--top-section">
+                                <div class="container__left--top-img"></div>
+                                <div class="container__left--top-mask"></div>
+                                <a href="" class="container__top--avatar">
+                                    <img src="./assest/img/shopper__img--background.png" alt="Avatar" class="avatar__img">
+                                    <div class="avatar__container">
+                                        <div class="avatar__text">Yêu Thích+</div>
+                                    </div>
+                                </a>
+                                <div class="container__left--top-name">ohuiminisample</div>
+                                <div class="container__left--top-time-online">Online 2 giờ trước</div>
+                            </div>
+                            <div class="grid__col--item">
+                                <div class="container__category">
+                                    <div class="category__header">Danh mục Shop</div>
+                                    <div class="category__items">
+                                        <a href="" class="category__item category__item--header">Sản Phẩm</a>
+                                        <a href="" class="category__item category__item--border">OHUI</a>
+                                        <a href="" class="category__item category__item--border">WHOO</a>
+                                        <a href="" class="category__item category__item--border">SU:M37</a>
+                                        <a href="" class="category__item category__item--border">SULWHASOO</a>
+                                        <a href="" class="category__item category__item--border">HERA</a>
+                                        <a href="" class="category__item category__item--border">SAGA - AMORE - VDL</a>
+                                        <a href="" class="category__item category__item--border">SERUM CÁC LOẠI</a>
+                                        <a href="" class="category__item category__item--border">TOP BÁN CHẠY NHẤT</a>
+                                        <a href="" class="category__item category__item--border">Su:m37 Xanh Cho Da Dầu Mụn</a>
+                                        <a href="" class="category__item category__item--border">Losec Summa Su:m37</a>
+                                        <a href="" class="category__item category__item--border">Giảm giá</a>
+                                    </div>
+                                </div>
+                                <div class="container__filter">
+                                    <div class="container__filter--header">THEO DANH MỤC</div>
+                                    <div class="container__filter--items">
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Kem dưỡng ẩm (77)</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Tinh chất dưỡng (77)</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Trang điểm (58)</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                            <label class="container__filter--item">
+                                                <input type="checkbox" class="filter__item--check-box">
+                                                <span class="filter__item--text">Nước cân bằng da (31)</span>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="container__filter">
+                                    <div class="container__filter--header">NƠI BÁN</div>
+                                    <div class="container__filter--items">
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Hà Nội</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">TP. Hồ Chí Minh</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Thái Nguyên</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                            <label class="container__filter--item">
+                                                <input type="checkbox" class="filter__item--check-box">
+                                                <span class="filter__item--text">Vĩnh Phúc</span>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="container__filter">
+                                    <div class="container__filter--header">ĐƠN VỊ VẬN CHUYỂN</div>
+                                    <div class="container__filter--items">
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Hỏa Tốc</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Nhanh</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Tiết Kiệm</span>
+                                        </label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="container__filter">
+                                    <div class="container__filter--header">THƯƠNG HIỆU</div>
+                                    <div class="container__filter--items">
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">AMOREPACIFIC</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">CNP Rx</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Mediheal</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                            <label class="container__filter--item">
+                                                <input type="checkbox" class="filter__item--check-box">
+                                                <span class="filter__item--text">VDL</span>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="container__filter--money">
+                                    <div class="container__filter--money-header">KHOẢNG GIÁ</div>
+                                    <div class="container__filter--money-box">
+                                        <input type="text" class="container__filter--money-box-from" placeholder="₫ TỪ">
+                                        <div class="container__filter--money-box-seperate"></div>
+                                        <input type="text" class="container__filter--money-box-to" placeholder="₫ ĐẾN">
+                                    </div>
+                                    <button class="container__filter--money-box-submit">
+                                        ÁP DỤNG
+                                    </button>
+                                </div>
+                                <div class="container__filter">
+                                    <div class="container__filter--header">Loại Shop</div>
+                                    <div class="container__filter--items">
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Shop Yêu thích</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Shop Yêu Thích +</span>
+                                        </label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="container__filter">
+                                    <div class="container__filter--header">Tình trạng</div>
+                                    <div class="container__filter--items">
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Mới</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Đã sử dụng</span>
+                                        </label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="container__filter">
+                                    <div class="container__filter--header">Dịch vụ & Khuyến mãi</div>
+                                    <div class="container__filter--items">
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Freeship Xtra</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                            <label class="container__filter--item">
+                                                <input type="checkbox" class="filter__item--check-box">
+                                                <span class="filter__item--text">Đang giảm giá</span>
+                                            </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                        <label class="container__filter--item">
+                                            <input type="checkbox" class="filter__item--check-box">
+                                            <span class="filter__item--text">Hoàn xu Xtra</span>
+                                        </label>
+                                        </div>
+                                        <div class="container__filter--cotrol">
+                                            <label class="container__filter--item">
+                                                <input type="checkbox" class="filter__item--check-box">
+                                                <span class="filter__item--text">Miễn phí vận chuyển</span>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="container__filter--delete-all">
+                                    <button class="container__filter--delete-all-box">
+                                        XÓA TẤT CẢ
+                                    </button>
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="grid__col--10">
+                            <div class="container__right--top-section">
+                                <span class="container__right--top-section-text">Sắp xếp theo</span>
+                                <div class="container__right--top-section-filter">
+                                    <div class="filter__popular">Phổ Biến</div>
+                                    <div class="filter__lastest">Mới Nhất</div>
+                                    <div class="filter__best-seller">Bán Chạy</div>
+                                    <div class="filter__price">
+                                        <div class="filter__price-text">Giá</div>
+                                        <i class="fas fa-chevron-down filter__price-icon"></i>
+                                        <!-- Subnav filter right top section -->
+                                        <div class="filter__subnav--price">
+                                            <div class="filter__price--grow">Giá: Thấp đến Cao</div>
+                                            <div class="filter__price--decrease">Giá: Cao đến Thấp</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter__page-control">
+                                    <div class="filter__page-control-number">
+                                        <div class="filter__page-control-number--current">1</div>
+                                        /
+                                        <div class="filter__page-control-number-total">14</div>
+                                    </div>
+                                        <button class="filter__page-control-btn--back">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </button>
+                                        <button class="filter__page-control-btn--next">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </button> 
+                                </div>
+                            </div>
+
+                            <div class="container__right--main">
+                                <div class="grid__row">
+                                    <div class="grid__col--2-4">
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                    <div class="grid__col--2-4">
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                    <div class="grid__col--2-4">
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                    <div class="grid__col--2-4">
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                    <div class="grid__col--2-4">
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                        <div class="container__right--main-item">
+                                            <div class="container__right--main-item-img">
+                                                <img src="./assest/img/supersale10_10.png" alt="" class="container__right--main-item-img-background">
+                                                <img src="./assest/img/item.jpg" alt="Product image" class="container__right--main-item-img-product">
+                                            </div>    
+                                            <div class="container__right--main-item-box">
+                                                <div class="container__right--main-item__name">Mặt nạ lột thảo dược trắng da, sạch mụn cám, mụn đầu đen và loại bỏ tế bào chết Sulwhasoo Clarifying Mask</div>
+                                                <div class="container__right--main-item__sale">
+                                                    <div class="container__right--main-item__sale-text">Mua Kèm Deal Sốc</div>
+                                                </div>
+                                                <div class="container__right--main-item__price">
+                                                    <div class="container__right--main-item__price-old"><s>10.000đ</s></div>
+                                                    <div class="container__right--main-item__price-current">4.999đ</div>
+                                                    <div class="container__right--main-item__price-freeship">
+                                                        <img src="./assest/img/freeship.webp" alt="" class="container__right--main-item__price-freeship-img">
+                                                    </div>
+                                                </div>
+                                                <div class="container__right--main-item__condition">
+                                                    <i class="container__right--main-item__condition-like far fa-heart"></i>
+                                                    <span class="container__right--main-item__condition-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                    <div class="container__right--main-item__condition-sold">Đã bán 14,8k</div>
+                                                </div>
+                                                <div class="container__right--main-item__place">Quảng Ninh</div>
+                                        
+                                            </div>
+                                            <div class="container__right--main-favorite">Yêu thích+</div>
+                                            <div class="container__right--main-sale">
+                                                <span style="color: rgb(238, 77, 45);">50%</span>
+                                                <span style="color: white;">GIẢM</span>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container__right--footer">
+                                    <button class="container__right--footer-btn">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </button>
+                                    <button class="container__right--footer-btn container__right--footer-btn-current-page">1</button>
+                                    <button class="container__right--footer-btn">2</button>
+                                    <button class="container__right--footer-btn">3</button>
+                                    <button class="container__right--footer-btn">4</button>
+                                    <button class="container__right--footer-btn">5</button>
+                                    <button class="container__right--footer-btn">...</button>
+                                    <button class="container__right--footer-btn">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+</body>
+</html>
